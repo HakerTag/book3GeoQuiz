@@ -13,8 +13,7 @@
             android:id="@+id/question_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="24dp"
-            android:text="@string/question_text" />
+            android:padding="24dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,5 +35,31 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="24dp"
+        android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/previous_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:minWidth="55dp"
+        android:minHeight="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arrow_left"/>
+
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:minWidth="55dp"
+        android:minHeight="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arrow_right"/>
+    </LinearLayout>
 
 </LinearLayout>
